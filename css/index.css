@@ -5,17 +5,45 @@
 body{
     background-image: url(/img/fundoLoginV2.png);
     display: flex;
-    align-content: center;
     justify-content: center;
     
 }
 .main{
-    backdrop-filter: blur(7px);
-    border: 20px;
+    background-color: white;
+    backdrop-filter:url(filters.svg#filter) blur(100px) opacity(50%);
+    border-width: 3px;
     border-color: black;
     border-radius: 20px;
+    border-style: solid;
     width: 732px;
     height: 586px;
     align-content: center;
     justify-content: center;
+}
+.tituloDoMain{
+    display: flex;
+    align-self: flex-start;
+    margin-top: -100px;
+}
+.conteudoDoMain{
+    width: 90%;
+    padding: 20px;
+    display: flex;
+}
+.txtInputUsuarioNome{
+    margin-bottom: 20px;
+    width: 200px;
+    height: 40px;
+
+}
+.txtInputUsuarioSenha{
+    margin-top: 40px;
+    width: 200px;
+    height: 40px;
+
+}
+.btnInputUsuario{
+    width: 90px;
+    height: 20px;
+    margin-top: 100px;
 }
